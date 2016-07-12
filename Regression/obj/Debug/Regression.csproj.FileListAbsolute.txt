@@ -1,0 +1,8 @@
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\bin\Debug\Regression.exe.config
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\bin\Debug\Regression.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\bin\Debug\Regression.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\bin\Debug\MathNet.Numerics.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\bin\Debug\MathNet.Numerics.xml
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\obj\Debug\Regression.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\obj\Debug\Regression.exe
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\Regression\Regression\obj\Debug\Regression.pdb
