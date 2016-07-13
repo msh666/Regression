@@ -23,17 +23,18 @@ namespace Regression
             double[] xdata = data[0];
             double[] ydata = data[1];
 
-            double[][] var = new double[2][];
-            var[0] = xdata;
-            var[1] = ydata;
-            double[] linear = lr.Calculate(var);
+            double[][] varLin = new double[2][];
+            varLin[0] = xdata;
+            varLin[1] = ydata;
+            double[] linear = lr.Calculate(varLin);
 
             fp.Write(linear, "Linear Regression");
 
-            double[][] varPol = new double[3][];
+            double[][] varPol = new double[2][];
             varPol[0] = xdata;
             varPol[1] = ydata;
-            varPol[2] = new double[] { order };
+            pl.Order = order;
+            //varPol[2] = new double[] { order };
             double[] polyniminal = pl.Calculate(varPol);
 
             fp.Write(polyniminal, "Polynominal Regression");

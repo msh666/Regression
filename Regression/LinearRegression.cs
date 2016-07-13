@@ -9,9 +9,9 @@ namespace Regression
 {
     class LinearRegression : ICalculate
     {
-        public double[] Calculate(double[][] var)
+        public double[] Calculate(double[][] varLin)
         {
-            Tuple<double, double> linear = Fit.Line(var[0], var[1]);
+            Tuple<double, double> linear = Fit.Line(varLin[0], varLin[1]);
             double intercept = linear.Item1; // == 10; intercept
             double slope = linear.Item2; // == 0.5; slope
 
