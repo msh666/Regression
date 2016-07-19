@@ -14,6 +14,7 @@ namespace Regression
             PolynominalRegression pl = new PolynominalRegression();
             Multiple ml = new Multiple();
             FileProcessing fp = new FileProcessing();
+            Exponential exp = new Exponential();
 
             fp.InputName = "input.csv";
             fp.OutputName = "output.csv";
@@ -34,7 +35,6 @@ namespace Regression
             varPol[0] = xdata;
             varPol[1] = ydata;
             pl.Order = order;
-            //varPol[2] = new double[] { order };
             double[] polyniminal = pl.Calculate(varPol);
 
             fp.Write(polyniminal, "Polynominal Regression");
@@ -47,6 +47,10 @@ namespace Regression
             double[] multiple = ml.Calculate(varMult);
 
             fp.Write(multiple, "Multiple Regression");
+
+            double[] exponential = exp.Calculate(varLin);
+            fp.Write(exponential, "Exponential Regression");
+
         }
     }
 }
