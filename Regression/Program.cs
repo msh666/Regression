@@ -15,6 +15,7 @@ namespace Regression
             Multiple ml = new Multiple();
             FileProcessing fp = new FileProcessing();
             Exponential exp = new Exponential();
+            Pokazatelnaya pk = new Pokazatelnaya();
 
             fp.InputName = "input.csv";
             fp.OutputName = "output.csv";
@@ -50,6 +51,9 @@ namespace Regression
 
             double[] exponential = exp.Calculate(varLin);
             fp.Write(exponential, "Exponential Regression");
+
+            double[] pokaz = pk.Calculate(varLin);
+            fp.Write(pokaz, "Pokazatelnaya Regression");
 
         }
     }

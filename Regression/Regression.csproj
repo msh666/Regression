@@ -53,6 +53,7 @@
     <Compile Include="ICalculate.cs" />
     <Compile Include="LinearRegression.cs" />
     <Compile Include="MultipleRegression.cs" />
+    <Compile Include="Pokazatelnaya.cs" />
     <Compile Include="PolynominalRegression.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
