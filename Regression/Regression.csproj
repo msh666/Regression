@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exponential.cs" />
     <Compile Include="FileProcessing.cs" />
     <Compile Include="ICalculate.cs" />
     <Compile Include="LinearRegression.cs" />
