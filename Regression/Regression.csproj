@@ -52,6 +52,7 @@
     <Compile Include="FileProcessing.cs" />
     <Compile Include="ICalculate.cs" />
     <Compile Include="LinearRegression.cs" />
+    <Compile Include="Logarifmic.cs" />
     <Compile Include="MultipleRegression.cs" />
     <Compile Include="Pokazatelnaya.cs" />
     <Compile Include="PolynominalRegression.cs" />

@@ -16,6 +16,7 @@ namespace Regression
             FileProcessing fp = new FileProcessing();
             Exponential exp = new Exponential();
             Pokazatelnaya pk = new Pokazatelnaya();
+            Logarifmic lg = new Logarifmic();
 
             fp.InputName = "input.csv";
             fp.OutputName = "output.csv";
@@ -54,6 +55,9 @@ namespace Regression
 
             double[] pokaz = pk.Calculate(varLin);
             fp.Write(pokaz, "Pokazatelnaya Regression");
+
+            double[] log = lg.Calculate(varLin);
+            fp.Write(log, "Logarifmic Regression");
 
         }
     }
