@@ -17,6 +17,8 @@ namespace Regression
             Exponential exp = new Exponential();
             Pokazatelnaya pk = new Pokazatelnaya();
             Logarifmic lg = new Logarifmic();
+            Hyperbolic hp = new Hyperbolic();
+            
 
             fp.InputName = "input.csv";
             fp.OutputName = "output.csv";
@@ -59,6 +61,8 @@ namespace Regression
             double[] log = lg.Calculate(varLin);
             fp.Write(log, "Logarifmic Regression");
 
+            double[] hyp = hp.Calculate(varLin);
+            fp.Write(hyp, "Hyperbolic Regression");
         }
     }
 }
